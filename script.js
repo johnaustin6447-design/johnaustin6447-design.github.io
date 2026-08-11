@@ -1,6 +1,8 @@
-const BUSINESS_EMAIL="johnpro5540@gmail.com";
-nav=document.querySelector("#nav-links");
 
+const BUSINESS_EMAIL="johnpro5540@gmail.com";
+
+const menuBtn=document.querySelector(".menu-btn"),
+nav=document.querySelector("#nav-links");
 if(menuBtn){
   menuBtn.addEventListener("click",()=>nav.classList.toggle("open"));
 }
