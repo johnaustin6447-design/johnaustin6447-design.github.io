@@ -1,5 +1,4 @@
 const BUSINESS_EMAIL="johnpro5540@gmail.com";
-const menuBtn=document.querySelector(".menu-btn"),
 nav=document.querySelector("#nav-links");
 
 if(menuBtn){
